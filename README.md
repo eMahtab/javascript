@@ -1,9 +1,11 @@
 # Event propagation : bubbling and capturing
 When an event happens – the most nested element where it happens gets labeled as the “target element” (event.target).
 
-Then the event moves down from the document root to event.target, calling handlers assigned with addEventListener(..., true) on the way (true is a shorthand for {capture: true}).
-Then handlers are called on the target element itself.
-Then the event bubbles up from event.target to the root, calling handlers assigned using on<event>, HTML attributes and addEventListener without the 3rd argument or with the 3rd argument false/{capture:false}.
+1. Then the event moves down from the document root to event.target, calling handlers assigned with addEventListener(..., true) on the way (true is a shorthand for {capture: true}).
+
+2. Then handlers are called on the target element itself.
+
+3. Then the event bubbles up from event.target to the root, calling handlers assigned using on<event>, HTML attributes and addEventListener without the 3rd argument or with the 3rd argument false/{capture:false}.
 ```  
 Each handler can access event object properties:
 
