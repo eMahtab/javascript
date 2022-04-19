@@ -86,3 +86,4 @@ function timedCount() {
 
 timedCount();  
 ```  
+![Web Worker Example](web-worker.JPG?raw=true)  
