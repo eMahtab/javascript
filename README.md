@@ -27,5 +27,12 @@ The idea is that if we have a lot of elements handled in a similar way, then ins
 
 In the handler we get event.target to see where the event actually happened and handle it.
 
+## Javascript Event Loop
+
+1. What is Javascript Event loop https://www.youtube.com/watch?v=EI7sN1dDwcY (Java Brains)
+
+2. Strategies for Event loop https://www.youtube.com/watch?v=IvLltoCt8QU (Java Brains)
+  
+  
 
 
