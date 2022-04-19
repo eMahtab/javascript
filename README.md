@@ -87,3 +87,8 @@ function timedCount() {
 timedCount();  
 ```  
 ![Web Worker Example](web-worker.JPG?raw=true)  
+  
+## Service Worker
+https://www.youtube.com/watch?v=JYXXGNFJjwc  Service Workers - The State of the Web (Google Chrome Developers)
+  
+  
