@@ -93,6 +93,10 @@ https://www.youtube.com/watch?v=JYXXGNFJjwc  Service Workers - The State of the 
   
 ## Progressive Web App (PWA) :
   
-Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver enhanced capabilities, reliability, and installability while reaching anyone, anywhere, on any device with a single codebase.  
+Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver enhanced capabilities, reliability, and installability while reaching anyone, anywhere, on any device with a single codebase.
+  
+https://web.dev/what-are-pwas/
+  
+  
 
   
