@@ -33,6 +33,9 @@ In the handler we get event.target to see where the event actually happened and 
 
 2. Strategies for Event loop https://www.youtube.com/watch?v=IvLltoCt8QU (Java Brains)
   
+## The main thread is overworked & underpaid (Chrome Dev Summit 2019) - Surma
+   https://www.youtube.com/watch?v=7Rrv9qFMWNM
+  
   
 
 
