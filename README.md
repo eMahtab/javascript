@@ -97,6 +97,50 @@ Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver en
   
 https://web.dev/what-are-pwas/
   
+## JavaScript Notification Web API : 💥
+https://www.youtube.com/watch?v=Jncoj-Gvh9o (dcode)
+  
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notification Web API</title>
+</head>
+<body>
+    <h2>Notification Web API</h2>
+    <ul>
+        <li>Demo for the JavaScript Notification Web API to display desktop notification to users.</li>
+        <li>Notification Web API only works if the website is running on HTTPS</li>
+    </ul>
+    
+    <script>
+        function showNotification() {
+            const notification = new Notification("New message from web", {
+                body: 'Notification API is really great 😊',
+                icon: 'http://localhost:8080/coffee-mug.PNG'
+            });
+
+            notification.onclick = ((event) => {
+                window.location.href = 'http://www.mahtabalam.net';
+            })
+        }
+        if (Notification.permission === 'granted') {
+            console.log('Permission Already Granted');
+            showNotification();
+        } else if (Notification.permission !== 'denied') {
+            Notification.requestPermission().then(permission => {
+                if (permission === 'granted') {
+                    console.log('Permission granted');
+                    showNotification();
+                }
+            })
+        }
+    </script>
+</body>
+</html>
+```  
+  
+  
   
 
   
