@@ -97,7 +97,7 @@ Progressive Web Apps (PWA) are built and enhanced with modern APIs to deliver en
   
 https://web.dev/what-are-pwas/
   
-https://www.youtube.com/watch?v=WbbAPfDVqfY (Dcode - Good for getting started)  
+Creating a Progressive Web Application (PWA) https://www.youtube.com/watch?v=WbbAPfDVqfY (Dcode - Good for getting started)  
   
 ## JavaScript Notification Web API : 💥
 https://www.youtube.com/watch?v=Jncoj-Gvh9o (dcode)
